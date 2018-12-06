@@ -152,7 +152,7 @@ h6 {
 	color: #ffffff !important;
 }
 .banner {
-	background:url(images/tiffany-nutt-400385-unsplash-reduced.jpg) no-repeat left bottom;
+	background:url(images/tiffany-nutt-400385-unsplash-reduced.jpg) no-repeat center bottom;
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
@@ -187,6 +187,9 @@ h6 {
 .banner-btn:hover {
 	background: #ffffff;
 	color: #099278 !important;
+}
+.banner-btn-mobile {
+	display:none;
 }
 .section-padding {
 	padding: 80px 0px;
@@ -302,7 +305,6 @@ h6 {
 	transition: all 0.3s ease 0s;
 }
 .subscribe-btn:hover {
-
 		background: #099278;
 	color: #ffffff !important;
 }
@@ -369,6 +371,9 @@ h6 {
 }
 .calendar {
 	margin: 0 auto;
+}
+.calendar p {
+	display: none;
 }
 .calendar iframe {
 	position:relative;
@@ -607,12 +612,12 @@ h6 {
 	font-size: 12px;
 }
 .social-icons {
-	padding: 30px;
+
 }
 .social-icons .icon i {
+	padding: 30px;
 	font-size: 50px;
 	color: #21779c;
-
 }
 .social-icons .icon i:hover{
 	font-size: 50px;
@@ -640,6 +645,7 @@ h6 {
 	padding:7px 0px;
 }
 @media all and (max-width:991px) {
+
 .navbar .navbar-collapse {
 	overflow: auto;
 	background: rgba(0, 0, 0, 0.72);
@@ -653,6 +659,23 @@ h6 {
 .nav-last {
 	padding-right: 0px !important;
 }
+
+.banner-btn {
+	display:none;
+}
+
+.banner-btn-mobile {
+	display: inline-block;
+	background: #21779C;
+	color: #ffffff !important;
+	padding: 12px 45px;
+	font-size: 15px;
+	border-radius: 30px;
+	margin-top: 30px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
 }
 @media all and (max-width:768px) {
 .nav-scroll .navbar-brand img, .navbar-brand img{
@@ -673,7 +696,7 @@ h6 {
 	font-size: 25px;
 }
 .section-padding {
-	padding: 60px 0px;
+	padding: 40px 0px;
 }
 .section-title {
 	padding-bottom: 40px;
@@ -691,4 +714,44 @@ h6 {
 .banner-overlay {
 	padding: 150px 0px 100px;
 }
+.banner-btn {
+	display:none;
+}
+
+.banner-btn-mobile {
+	display: inline-block;
+	background: #21779C;
+	color: #ffffff !important;
+	padding: 12px 45px;
+	font-size: 15px;
+	border-radius: 30px;
+	margin-top: 30px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+	.calendar p {
+		display: inherit;
+		text-align: center;
+	}
+	.calendar iframe {
+		display: none;
+	}
+	.subscribe-btn {
+		padding: 12px 12px;
+	}
+.social-icons {
+	padding: 15px;
+		margin:auto;
+	}
+	.social-icons .icon i {
+		padding: 15px;
+		font-size: 40px;
+		color: #21779c;
+	}
+	.social-icons .icon i:hover{
+		font-size: 20px;
+		color: #099278;
+	}
+
 }
