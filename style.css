@@ -216,7 +216,7 @@ h6 {
 	margin-bottom: -15px;
 }
 
-.covid p, h4 {
+.covid p, .covid h4 {
 	color: #000;
 	text-align: left;
 	margin-bottom: 10px;
