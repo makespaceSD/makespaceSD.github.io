@@ -156,7 +156,7 @@ h6 {
 	margin: 20px 0px 30px 0px;
 }
 .banner {
-	background:url(images/tiffany-nutt-400385-unsplash-reduced.jpg) no-repeat center bottom;
+	background:url(images/makespace-exterior.jpg) no-repeat center center;
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
@@ -168,6 +168,10 @@ h6 {
 }
 .covid-banner {
 	background:url(images/covid-header.jpg) no-repeat left top;
+		background-size: cover;	width: 100%;
+}
+.equity-banner {
+	background:url(images/reading-group.jpg) no-repeat left center;
 		background-size: cover;	width: 100%;
 }
 .banner-overlay {
